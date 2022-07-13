@@ -99,15 +99,21 @@
      return;
    }
 
+   const radioButtons = listQuizContainer.querySelectorAll('input[type="radio"]');
+
+   radioButtons.forEach((itemArray) => {
+     itemArray.disabled = true;
+   });
+
    const userAnswer = parseInt(checkedRadio.value);
 
    if (userAnswer === quiz[questionIndex].correct) {
 
      score++;
-    
-    checkedRadio.parentNode.parentNode.style.background = 'Lightgreen';
+
+     checkedRadio.parentNode.parentNode.style.background = 'Lightgreen';
    } else {
-    checkedRadio.parentNode.parentNode.style.background = 'Salmon';
+     checkedRadio.parentNode.parentNode.style.background = 'Salmon';
    }
 
    if (questionIndex !== (quiz.length - 1)) {
@@ -176,8 +182,8 @@
      showQuestion();
    } else if (submitButton.textContent === 'Begin again') {
      startQuiz();
-   } else  if(submitButton.textContent === 'Give answer'){
-    submitButton.textContent = `Next`;
+   } else if (submitButton.textContent === 'Give answer') {
+     submitButton.textContent = `Next`;
    }
 
    submitButton.onclick = checkAnswer;
