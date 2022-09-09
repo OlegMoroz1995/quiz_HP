@@ -1,0 +1,59 @@
+{
+    "quiz": [
+        {
+            "question": "When Harry used a magic firstly?",
+            "answers": ["In dream", "In zoo", "In the car"],
+            "correct": 2
+        },
+        {
+            "question": "Where did Harry get the letter from Hogwarts?",
+            "answers": ["On the lighthouse", "At home", "In the car"],
+            "correct": 1
+        },
+        {
+            "question": "What was the core of Harry's wand?",
+            "answers": ["From a unicorn", "From a fenix", "From a dragon heart"],
+            "correct": 2
+        },
+        {
+            "question": "Who was on Harry's first card from the box of chocolate frogs?",
+            "answers": ["Snape", "Dumbledore", "Volandemort"],
+            "correct": 2
+        },
+        {
+            "question": "Where did Harry first meet Draco Malfoy?",
+            "answers": ["In the train", "In Hogwarts", "In a crooked alley"],
+            "correct": 3
+        },
+        {
+            "question":"What kind of dragon did Hagrid have?",
+            "answers":["Hungarian Horntail","Norwegian humpback dragon","Ukrainian iron-bellied dragon"],
+            "correct":2
+        },
+        {
+            "question":"In the battle with which creature did Harry and Ron help Hermione?",
+            "answers":["Pixie","Troll","Dragon", "Unicorn"],
+            "correct":2
+        },
+        {
+            "question":"What instrument was used to put the three-headed dog to sleep?",
+            "answers":["A violin","A flute","A harp"],
+            "correct":3
+        },
+        {
+            "question":"What is the make of the Weasley family car?",
+            "answers":["Ford","BMW","Audi","Volkswagen"],
+            "correct":1
+        },
+        {
+            "question":"How many secret passages are there from Hogwarts?",
+            "answers":["7","3","11","22"],
+            "correct":1
+        },
+        {
+            "question":"How many deathly gifts are there?",
+            "answers":["2","4","1","3"],
+            "correct":4
+        }
+    ]
+}
